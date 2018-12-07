@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Block</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <h1>Block Schedule1</h1>
+  <div class="timeBox">
+    <p>Keep track of your time!</p>
+    <button type="button"
+  onclick="document.getElementById('demo').innerHTML = Date()">
+  Click me!</button>
+    <p id="demo"></p>
+  </div>
+  <div class="container">
+    <div class="box" id="dltbox">
+      <h2 class="task">Task</h2>
+      <ol>
+        <li id="lineThru" onclick="styleChange()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, in deserunt dolor earum ratione, consectetur.</li>
+        <li id="showNone" onclick="styleChange1()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt omnis, qui explicabo.</li>
+        <li id="showNone2" onclick="styleChange2()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt omnis, qui explicabo.</li>
+        <li id="showNone3" onclick="styleChange3()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quae dolor tenetur earum reprehenderit.</li>
+        <li id="showNone4" onclick="styleChange4()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quasi necessitatibus, assumenda nulla culpa adipisci, architecto beatae dolorum nesciunt amet.</li>
+      </ol>
+      <button class="button" onclick="deleteBox()">Completed</button>
+    </div>
+    <div class="box">
+      <h2 class="task">Task</h2>
+      <ol>
+        <li class="change1" onclick="styleChange6()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, in deserunt dolor earum ratione, consectetur.</li>
+        <li class="change1" onclick="styleChange6()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt omnis, qui explicabo.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quae dolor tenetur earum reprehenderit.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quasi necessitatibus, assumenda nulla culpa adipisci, architecto beatae dolorum nesciunt amet.</li>
+      </ol>
+      <button class="button">Completed</button>
+    </div>
+    <div class="box">
+      <h2 class="task">Task</h2>
+      <ol>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, in deserunt dolor earum ratione, consectetur.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt omnis, qui explicabo.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quae dolor tenetur earum reprehenderit.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quasi necessitatibus, assumenda nulla culpa adipisci, architecto beatae dolorum nesciunt amet.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nobis qui quaerat aperiam delectus facilis dolore mollitia, eius alias, molestiae blanditiis veritatis aliquid amet animi rem excepturi voluptate vel tenetur provident! Omnis doloremque beatae numquam, vitae sed placeat, aperiam ipsam debitis vel reiciendis a ducimus cupiditate possimus quidem, illo eligendi.</li>
+      </ol>
+      <button class="button">Completed</button>
+    </div>
+    <div class="box">
+      <h2 class="task">Task</h2>
+      <ol>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, in deserunt dolor earum ratione, consectetur.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt omnis, qui explicabo.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quae dolor tenetur earum reprehenderit.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quasi necessitatibus, assumenda nulla culpa adipisci, architecto beatae dolorum nesciunt amet.</li>
+      </ol>
+      <button class="button">Completed</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

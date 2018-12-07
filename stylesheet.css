@@ -1,0 +1,80 @@
+body {
+  background:brown;
+}
+.container {
+  display:flex;
+  flex-direction:column;
+  background:#20b2aa;
+  min-width:375px;
+  margin:auto;
+  text-align:center;
+  justify-content:space-around;
+}
+/* container for box with time button */
+.timeBox {
+  position:relative;
+  width:60%;
+  margin:auto;
+  box-sizing:border-box;
+  text-align:center;
+  padding:1rem 0 1rem 0;
+  background:	#5F9EA0;
+  border-bottom:3px solid yellow;
+  border-top: 3px solid yellow;
+}
+.timeBox:hover:before {
+  position:absolute;
+  top:0;
+  content:'';
+  display:block;
+  width:10px;
+  height:100%;
+  background:teal;
+  opacity.4;
+}
+/* box that contains event and info */
+.box {
+  box-sizing:border-box;
+  margin:auto;
+  background:white;
+  min-width:300px;
+  max-width:450px;
+  border:1.8px solid teal;
+  margin-top:1rem;
+  margin-bottom:.5rem;
+  padding-bottom:.8rem;
+  box-shadow:7px 7px 10px #404040;
+
+}
+ol {
+  list-style-type: none;
+  padding-bottom:.3rem;
+  padding-right:2rem;
+}
+li {
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+}
+h1 {
+  text-align:center;
+  text-transform:uppercase;
+  font-family:cursive;
+  text-decoration:underline;
+
+}
+h2 {
+  box-sizing:border-box;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  background:white;
+  border-bottom:4px solid black;
+  margin:0;
+}
+h2:hover {
+  color:brown;
+  background:#20b2aa;
+}
+.button {
+  transform:scale(1.5);
+  color:#35b2cf;
+}
